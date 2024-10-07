@@ -39,4 +39,10 @@ module.exports = getTotalIsles;
 console.log(getTotalIsles(grid1));
 
 let grid2=
+[
+  ["L","L","W","W","W"],
+  ["L","L","W","W","W"],
+  ["W","W","L","W","W"],
+  ["W","W","W","L","L"],
+];
 
