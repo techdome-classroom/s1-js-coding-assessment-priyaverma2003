@@ -35,4 +35,5 @@ module.exports = getTotalIsles;
   ["L","L","W","W","W"],
   ["W","W","L","W","W"],
   ["W","W","W","L","L"],
-]
+];
+console.log();
