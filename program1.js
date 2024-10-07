@@ -38,4 +38,5 @@ module.exports = getTotalIsles;
 ];
 console.log(getTotalIsles(grid1));
 
-let grid2
+let grid2=
+
