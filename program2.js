@@ -12,7 +12,7 @@ const decodeTheRing = function (s, p) {
 
      
       if (p[keyIndex] === '*') {
-          // Try skipping '*' or consuming a character
+          
           return helper(msgIndex, keyIndex + 1) || (msgIndex < s.length && helper(msgIndex + 1, keyIndex));
       }
 
