@@ -36,4 +36,6 @@ module.exports = getTotalIsles;
   ["W","W","L","W","W"],
   ["W","W","W","L","L"],
 ];
-console.log();
+console.log(getTotalIsles(grid1));
+
+
