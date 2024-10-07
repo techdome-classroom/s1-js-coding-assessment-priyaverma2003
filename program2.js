@@ -1,6 +1,6 @@
 const decodeTheRing = function (s, p) {
   const helper = (msgIndex, keyIndex) => {
-      // If both s (message) and p (decoderKey) are exhausted, return true
+     
       if (msgIndex === s.length && keyIndex === p.length) {
           return true;
       }
