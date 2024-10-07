@@ -7,7 +7,7 @@ const getTotalIsles = function (grid) {
       return;
     }
   grid [r][c]='W';
-)
+dfs(r-1,c);)
   }
 
 
