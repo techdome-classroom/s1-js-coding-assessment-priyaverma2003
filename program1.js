@@ -29,4 +29,10 @@ return islandCount
 }; 
 
 module.exports = getTotalIsles;
- let 
+ let grid1=
+ [
+  ["L","L","W","W","W"],
+  ["L","L","W","W","W"],
+  ["W","W","L","W","W"],
+  ["W","W","W","L","L"],
+]
