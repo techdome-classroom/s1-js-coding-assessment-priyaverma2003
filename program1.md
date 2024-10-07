@@ -38,7 +38,7 @@ The second envoy encountered a more fragmented map with the following layout:
           ]
 Here, the envoy identified three separate islands: two small islands in the bottom right corner and a larger island occupying the top left portion of the map.
 
-Output - 3
+Output - 3.0
 
 Cartographer's Challenge:
 
