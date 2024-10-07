@@ -26,7 +26,7 @@ const decodeTheRing = function (s, p) {
           return helper(msgIndex + 1, keyIndex + 1);
       }
 
-      // None of the above cases match, return false
+     
       return false;
   };
 
