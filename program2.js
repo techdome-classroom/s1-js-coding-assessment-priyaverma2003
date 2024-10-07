@@ -16,7 +16,7 @@ const decodeTheRing = function (s, p) {
           return helper(msgIndex, keyIndex + 1) || (msgIndex < s.length && helper(msgIndex + 1, keyIndex));
       }
 
-      // Handle '?' wildcard (matches exactly one character)
+      
       if (p[keyIndex] === '?') {
           // If there are more characters in s, move to the next character
           return msgIndex < s.length && helper(msgIndex + 1, keyIndex + 1);
