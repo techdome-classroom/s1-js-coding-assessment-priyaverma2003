@@ -46,3 +46,4 @@ let grid2=
   ["W","W","W","L","L"],
 ];
 
+console.log(getTotalIsles(grid2));
