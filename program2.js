@@ -21,7 +21,7 @@ const decodeTheRing = function (s, p) {
           return msgIndex < s.length && helper(msgIndex + 1, keyIndex + 1);
       }
 
-      // If characters in s and p match, move both pointers forward
+     
       if (msgIndex < s.length && s[msgIndex] === p[keyIndex]) {
           return helper(msgIndex + 1, keyIndex + 1);
       }
