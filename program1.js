@@ -19,7 +19,10 @@ const getTotalIsles = function (grid) {
   for (let c=0; c<cols; c++)
 {
   if (grid[r][c]==='')
-}}
+{
+  dfs(r,c);
+  islandCount++;
+}}}
 
 
 }; 
