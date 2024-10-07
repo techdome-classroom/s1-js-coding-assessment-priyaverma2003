@@ -18,7 +18,7 @@ const getTotalIsles = function (grid) {
 {
   for (let c=0; c<cols; c++)
 {
-  if 
+  if (grid[r][c]==='')
 }}
 
 
