@@ -14,6 +14,7 @@ const getTotalIsles = function (grid) {
 
 
   }
+  for (let r=0;  r<rows)
 
 
 
