@@ -5,7 +5,7 @@ const decodeTheRing = function (s, p) {
           return true;
       }
 
-      // If only decoderKey (p) is exhausted but message (s) isn't, return false
+     
       if (keyIndex === p.length) {
           return false;
       }
